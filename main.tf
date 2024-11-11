@@ -3,7 +3,7 @@ provider "aws" {
   region = var.aws_region
 }
 locals {
-  vpc_name = "${var.env_name} ${var.vpc_name}"
+  vpc_name     = "${var.env_name} ${var.vpc_name}"
   cluster_name = "${var.cluster_name}-${var.env_name}"
 }
 ## AWS VPC definition
