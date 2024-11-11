@@ -1,3 +1,4 @@
+# This will attempt to connect to the AWS API using the credentials we’ve configured in the sys‐ tem as environment variables
 provider "aws" {
   region = var.aws_region
 }
